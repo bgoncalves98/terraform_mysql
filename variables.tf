@@ -22,3 +22,7 @@ variable "instance_type" {
     description = "Instância que será utilizada"
     default = "t2.micro"
 }
+
+variable "vpc_id" {
+    default = "vpc-7da4bc1a"
+}
